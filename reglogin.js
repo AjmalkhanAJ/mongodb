@@ -66,7 +66,7 @@ else if(parseurl.pathname ==="/logcheck"){
         }
         if(f){
               res.writeHead(200,{"content-type":"text/html"});
-              res.write("<h1>log success </h1>");
+              res.write('<script>alert("log success") </script>');
               res.end();
         }
     

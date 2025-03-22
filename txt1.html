@@ -5,21 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div{
+       div{
             height: 200px;
             width: 400px;
-            border: 2px solid black;
-            padding: 20px;
-            margin-top: 100px;
-            margin-left: 100px;
+            border: 2px solid white;
+            padding: 30px;
+            margin-top: 250px;
+            margin-left: 500px;
+            text-align: center;
             border-radius: 20px;
+            background-color: rgba(129, 23, 23, 0.682);
+            box-shadow: 2px 2px 20px white;
+        }
+        body{
+            background-color: rgba(0, 0, 255, 0.699);
+        }
+        .con{
+            margin-top: 30px;
         }
     </style>
 </head>
 <body>
     <div>
     <form action="/logcheck" method="get">
-    <input type="text" name="lname" placeholder="please enter your name"><br><br>
+    <input type="text" name="lname" placeholder="please enter your name" class="con"><br><br>
     <input type="text" name="lpass" placeholder="please enter your pass"><br><br>
     <button>ok</button>
 </div>
